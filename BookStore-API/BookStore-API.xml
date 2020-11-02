@@ -22,5 +22,10 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="T:BookStore_API.DTOs.AuthorDTO">
+            <summary>
+            DTO and Data class do not directly interact
+            </summary>
+        </member>
     </members>
 </doc>
