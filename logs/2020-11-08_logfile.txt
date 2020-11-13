@@ -1,0 +1,12 @@
+2020-11-08 21:39:22.6153 INFO Author Submission Attempted
+2020-11-08 21:39:23.4931 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-11-08 21:41:54.4008 INFO Author Submission Attempted
+2020-11-08 21:41:59.5692 INFO Author created
+2020-11-08 22:21:03.1008 INFO Author with id: 1 Updated Attempted
+2020-11-08 22:40:15.6408 INFO Author with id: 1 Delete Attempted
+2020-11-08 22:44:28.4278 INFO Attempted Get All Authors
+2020-11-08 22:44:28.6907 INFO Successfull got all Authors

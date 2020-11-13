@@ -14,5 +14,7 @@ namespace BookStore_API.Data
         public string Bio { get; set; }
 
         public virtual IList<Book> Books { get;set; }
+
     }
+
 }
