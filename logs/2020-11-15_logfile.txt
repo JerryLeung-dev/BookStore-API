@@ -1,0 +1,57 @@
+2020-11-15 12:06:26.1513 INFO Attempted Get All Authors
+2020-11-15 12:06:29.3397 INFO Successfull got all Authors
+2020-11-15 12:11:11.0582 INFO Attempted to get all authors
+2020-11-15 12:11:15.0036 INFO Successfully get all authors
+2020-11-15 12:13:17.2815 INFO Attempted to add a new book
+2020-11-15 12:13:18.3510 INFO Successully added a book
+2020-11-15 12:14:08.5727 INFO Attempted to get all authors
+2020-11-15 12:14:09.0322 ERROR Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-15 12:14:26.6935 INFO Attempted to get all authors
+2020-11-15 12:14:26.8138 ERROR Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-15 12:15:22.8435 INFO Attempted to add a new book
+2020-11-15 12:15:23.1730 INFO Successully added a book
+2020-11-15 12:16:03.6325 INFO Attempted to get all authors
+2020-11-15 12:16:03.7278 ERROR Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-15 16:35:35.4597 INFO Attempted to get all authors
+2020-11-15 16:35:35.9167 ERROR Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-15 16:47:58.7220 INFO Books - GetBook: Attempted Call for id: 1
+2020-11-15 16:48:00.7177 WARN Failed to retrieve record with id: 1
+2020-11-15 16:51:43.3449 INFO Books - GetBooks: Attempted Call
+2020-11-15 16:51:43.8053 INFO Successfully get all authors
+2020-11-15 17:20:33.4548 INFO Books - Create: Create Attempted
+2020-11-15 17:20:36.4265 ERROR An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:fb9d0532-39f9-497a-ba42-899f6ded651f
+Error Number:547,State:0,Class:16
+2020-11-15 17:23:04.8624 INFO Authors - GetAuthors: Attempted Call
+2020-11-15 17:23:05.4223 INFO Authors - GetAuthors: Successfully retrieve records
+2020-11-15 17:24:15.3767 INFO Authors - Create Create Attempted
+2020-11-15 17:24:15.8784 INFO Authors - Create: Create successful
+2020-11-15 17:24:15.9022 INFO Authors - Create: BookStore_API.Data.Author
+2020-11-15 17:24:48.0703 INFO Books - Create: Create Attempted
+2020-11-15 17:24:48.1244 INFO Books - Create: Create Successful
+2020-11-15 17:24:48.1422 INFO Books - Create: BookStore_API.Data.Book
+2020-11-15 17:27:15.5784 INFO Authors - GetAuthor: Attemped call with id:2
+2020-11-15 17:27:15.9000 INFO Authors - GetAuthor: Successfully got record with id:2
+2020-11-15 18:17:55.9181 INFO Books - Update: Update Attempted on record with id: 4
+2020-11-15 18:17:57.4876 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book - 
+2020-11-15 18:20:45.7790 INFO Books - Update: Update Attempted on record with id: 4
+2020-11-15 18:20:47.5682 INFO Books - Update: Record with id: 4 successfully updated
+2020-11-15 18:20:59.3456 INFO Books - GetBooks: Attempted Call
+2020-11-15 18:20:59.5498 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 

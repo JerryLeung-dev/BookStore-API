@@ -6,7 +6,7 @@
     <members>
         <member name="T:BookStore_API.Controllers.AuthorsController">
             <summary>
-            Endpoint sed to interact with the Authors in the book store's database
+            Endpoint set to interact with the Authors in the book store's database
             </summary>
         </member>
         <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthors">
@@ -26,7 +26,7 @@
             <summary>
             Creates An Author 
             </summary>
-            <param name="author"></param>
+            <param name="authorDTO"></param>
             <returns></returns>
         </member>
         <member name="M:BookStore_API.Controllers.AuthorsController.Update(System.Int32,BookStore_API.DTOs.AuthorUpdateDTO)">
@@ -34,8 +34,40 @@
             Update an author
             </summary>
             <param name="id"></param>
-            <param name="author"></param>
+            <param name="authorDTO"></param>
             <returns></returns>
+        </member>
+        <member name="T:BookStore_API.Controllers.BooksController">
+            <summary>
+            Endpoint set to interact with the Books in the book store's database
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.GetBooks">
+            <summary>
+            Get all books 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.GetBook(System.Int32)">
+            <summary>
+            Get a particular book that matches the id given
+            </summary>
+            <param name="id"></param>
+            <returns>book with id given</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.Create(BookStore_API.DTOs.BookCreateDTO)">
+            <summary>
+            Add a new book
+            </summary>
+            <param name="bookDTO"></param>
+            <returns>Book Object</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.Delete(System.Int32)">
+            <summary>
+            Delete a book
+            </summary>
+            <param name="id"></param>
+            <returns>Nothing</returns>
         </member>
         <member name="T:BookStore_API.Controllers.HomeController">
             <summary>

@@ -1,0 +1,15 @@
+2020-11-16 00:49:35.1692 INFO Books - Update: Update Attempted on record with id: 4
+2020-11-16 00:49:39.5909 INFO Books - Update: Record with id: 4 successfully updated
+2020-11-16 23:11:48.5196 INFO Books - Delete: Attempted Call
+2020-11-16 23:11:50.2704 ERROR Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-16 23:13:56.6586 INFO Books - Delete: Attempted Call
+2020-11-16 23:17:31.6095 INFO Books - GetBooks: Attempted Call
+2020-11-16 23:17:33.1272 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-16 23:19:42.2540 INFO Authors - GetAuthors: Attempted Call
+2020-11-16 23:19:42.5466 INFO Authors - GetAuthors: Successfully retrieve records
+2020-11-16 23:20:56.5278 INFO Books - GetBooks: Attempted Call
+2020-11-16 23:20:58.1534 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-16 23:22:57.7061 INFO Books - GetBooks: Attempted Call
+2020-11-16 23:22:58.8444 INFO Books - GetBooks: Called Success
+2020-11-16 23:23:19.6729 INFO Books - Delete: Attempted Call
+2020-11-16 23:23:20.0826 INFO Books - Delete: Delete Successful
